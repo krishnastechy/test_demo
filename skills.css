@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: black;
+    scroll-behavior: smooth;
+}
+#col{
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+#col:hover{
+    transform: scale(1.1);
+}
+#col1{
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+#col1:hover{
+    transform: scale(1.1);
+}
+#col2{
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+#col2:hover{
+    transform: scale(1.1);
+}
+.nav-item:hover{
+    background-color:rgb(35, 39, 37);
+
+}
+.nav-link {
+    color: wheat;
+}
+.nav-link :hover{
+    background-color:rgb(35, 39, 37);
+    
+}
+#footer{
+    background-color: black;
+    color: wheat;
+}
+button a{
+    color: wheat;
+    text-decoration: none;
+}
+button a:hover{
+    color: wheat;
+    text-decoration: none;
+}
+#fm:hover{
+    background-color: rgb(28, 58, 228);
+    cursor: pointer;
+}
+#fm1:hover{
+    background-color: rgb(216, 18, 127);
+    cursor: pointer;
+}
+#fm2:hover{
+    background-color: rgb(15, 202, 46);
+    cursor: pointer;
+}
+#sc:hover{
+    transform: scale(1.3);
+}

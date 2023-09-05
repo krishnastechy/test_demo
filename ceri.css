@@ -1,0 +1,78 @@
+h3{
+    text-align: center;
+    color: wheat;
+    animation: text;
+    animation-duration: 3s;
+    transition: 2s ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes text{
+    10%{
+        opacity: 0px;
+        transform: scale(1.1);
+    }
+    40%{
+        opacity: 5px;
+    }
+    50%{
+        opacity: 0px;
+        transform: scale(1.0);
+    }
+    75%{
+        opacity: 0px;
+    }
+    90%{
+        opacity: 5px;
+        transform: scale(1.1);
+    }
+    100%{
+        opacity: 1px;
+        transform: scale(0.5);
+    }
+}
+body{
+    background-color: black;
+    scroll-behavior: smooth;
+}
+#img{
+    height: 140vh;
+    filter:hue-rotate(5px);
+    cursor: pointer;
+}
+#box1{
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+#box2{
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+#footer{
+    background-color: black;
+    color: wheat;
+}
+button a{
+    color: wheat;
+    text-decoration: none;
+}
+button a:hover{
+    color: wheat;
+    text-decoration: none;
+}
+#fm:hover{
+    background-color: rgb(28, 58, 228);
+    cursor: pointer;
+}
+#fm1:hover{
+    background-color: rgb(216, 18, 127);
+    cursor: pointer;
+}
+#fm2:hover{
+    background-color: rgb(15, 202, 46);
+    cursor: pointer;
+}
+#sc:hover{
+    transform: scale(1.3);
+}
